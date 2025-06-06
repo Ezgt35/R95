@@ -6,19 +6,19 @@ function App() {
   const links = [
     {
       title: 'Portfolio',
-      url: 'https://portfolio.ezgt.com',
+      url: 'https://portfolio.com',
       description: 'Explore my digital universe',
       icon: <Rocket className="w-5 h-5 text-indigo-400" />
     },
     {
       title: 'Blog',
-      url: 'https://blog.ezgt.com',
+      url: 'https://blog.com',
       description: 'Journey through my thoughts',
       icon: <Star className="w-5 h-5 text-purple-400" />
     },
     {
       title: 'YouTube Channel',
-      url: 'https://youtube.com/@ezgt',
+      url: 'https://youtube.com/@ezgt1',
       description: 'Watch tech tutorials from space',
       icon: <ExternalLink className="w-5 h-5 text-blue-400" />
     },
