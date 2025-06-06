@@ -98,7 +98,7 @@ function App() {
           </div>
 
           <footer className="mt-16 text-center text-sm text-indigo-200/50 fade-in" style={{ animationDelay: '0.8s' }}>
-            <p>© {new Date().getFullYear()} Ezgt • Exploring the digital frontier</p>
+            <p>© {new Date().getFullYear()} R95 • Exploring the digital frontier</p>
           </footer>
         </div>
       </div>
