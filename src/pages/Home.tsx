@@ -10,7 +10,7 @@ import Footer from '../components/Footer';
 const Home: React.FC = () => {
   useEffect(() => {
     // Update the title when the component mounts
-    document.title = 'Ezgt - Personal Website';
+    document.title = 'R95 - Personal Website';
     
     // Add smooth scrolling for all anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
