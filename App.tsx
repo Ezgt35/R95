@@ -51,7 +51,7 @@ function App() {
               />
             </div>
             <h1 className="text-4xl font-bold mb-3 bg-gradient-to-r from-indigo-400 via-purple-400 to-blue-400 text-transparent bg-clip-text">
-              Ezgt
+              R95
             </h1>
             <p className="text-indigo-200 text-lg">Navigating the digital cosmos</p>
           </div>
