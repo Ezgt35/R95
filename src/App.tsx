@@ -30,7 +30,7 @@ function App() {
     },
      {
       title: 'WhatsApp',
-      url: 'https://discord.gg/ezgt',
+      url: 'https://wa.me/6288802747938',
       description: 'My WhatsApp',
       icon: <Star className="w-5 h-5 text-indigo-400" />
     }
