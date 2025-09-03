@@ -27,6 +27,12 @@ function App() {
       url: 'https://discord.gg/ezgt',
       description: 'Join our cosmic tech community',
       icon: <Star className="w-5 h-5 text-indigo-400" />
+    },
+     {
+      title: 'WhatsApp',
+      url: 'https://discord.gg/ezgt',
+      description: 'My WhatsApp',
+      icon: <Star className="w-5 h-5 text-indigo-400" />
     }
   ];
 
