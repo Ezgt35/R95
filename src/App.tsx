@@ -57,12 +57,12 @@ function App() {
               />
             </div>
             <h1
-  className="text-4xl font-bold mb-3 bg-gradient-to-r from-indigo-400 via-purple-400 to-blue-400 text-transparent bg-clip-text"
+  className="text-4xl font-bold mb-3 bg-gradient-to-r from-blue-300 via-cyan-300 to-blue-400 text-transparent bg-clip-text"
   style={{
-    textShadow: '2px 2px 0 #fff, 4px 4px 10px #7f00ff, 0 0 10px #00f0ff',
-    WebkitTextStroke: '2px #222',
+    textShadow: '2px 2px 0 #fff, 4px 4px 16px #3cf0ff, 0 0 12px #80eaff',
+    WebkitTextStroke: '2px #2168a6',
     letterSpacing: '2px',
-    animation: 'anime-glow 1.5s infinite alternate'
+    animation: 'anime-glow-blue 1.5s infinite alternate'
   }}
 >
   R95
