@@ -5,6 +5,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: url('https://img1.pixhost.to/images/8436/637434520_zion.jpg')
+  background-attachment: fixed;
 }
 
 /* Animated stars background */
