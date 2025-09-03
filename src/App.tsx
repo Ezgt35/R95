@@ -45,7 +45,7 @@ function App() {
           <div className="text-center mb-12 fade-in">
             <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 ring-2 ring-indigo-500 p-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-500">
               <img
-                src="https://images.pexels.com/photos/2150/sky-space-dark-galaxy.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="https://img1.pixhost.to/images/8436/637430585_zion.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover rounded-full"
               />
