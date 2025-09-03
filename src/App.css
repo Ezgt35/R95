@@ -4,7 +4,10 @@ body {
   font-family: 'Space Grotesk', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('https://img1.pixhost.to/images/8436/637434520_zion.jpg')
+  background-image: url('https://img1.pixhost.to/images/8436/637434520_zion.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   background-attachment: fixed;
 }
 
