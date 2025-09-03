@@ -53,7 +53,7 @@ function App() {
             <h1 className="text-4xl font-bold mb-3 bg-gradient-to-r from-indigo-400 via-purple-400 to-blue-400 text-transparent bg-clip-text">
               R95
             </h1>
-            <p className="text-indigo-200 text-lg">Navigating the digital cosmos</p>
+            <p className="text-indigo-200 text-lg">Profile</p>
           </div>
 
           <div className="space-y-4">
@@ -98,7 +98,7 @@ function App() {
           </div>
 
           <footer className="mt-16 text-center text-sm text-indigo-200/50 fade-in" style={{ animationDelay: '0.8s' }}>
-            <p>© {new Date().getFullYear()} R95 • Exploring the digital frontier</p>
+            <p>© {new Date().getFullYear()} R95 • Profile</p>
           </footer>
         </div>
       </div>
