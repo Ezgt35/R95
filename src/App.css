@@ -15,7 +15,7 @@ body {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  background: radial-gradient(circle at center, rgba(31, 41, 55, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background: url('https://img1.pixhost.to/images/8436/637430585_zion.jpg') center center / cover no-repeat;
 }
 
 .stars::before,
