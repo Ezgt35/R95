@@ -32,7 +32,7 @@ function App() {
       title: 'WhatsApp',
       url: 'https://discord.gg/ezgt',
       description: 'My WhatsApp',
-      icon: <Phone className="w-5 h-5 text-indigo-400" />
+      icon: <Star className="w-5 h-5 text-indigo-400" />
     }
   ];
 
