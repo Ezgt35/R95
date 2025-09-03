@@ -56,9 +56,17 @@ function App() {
                 className="w-full h-full object-cover rounded-full"
               />
             </div>
-            <h1 className="text-4xl font-bold mb-3 bg-gradient-to-r from-indigo-400 via-purple-400 to-blue-400 text-transparent bg-clip-text">
-              R95
-            </h1>
+            <h1
+  className="text-4xl font-bold mb-3 bg-gradient-to-r from-indigo-400 via-purple-400 to-blue-400 text-transparent bg-clip-text"
+  style={{
+    textShadow: '2px 2px 0 #fff, 4px 4px 10px #7f00ff, 0 0 10px #00f0ff',
+    WebkitTextStroke: '2px #222',
+    letterSpacing: '2px',
+    animation: 'anime-glow 1.5s infinite alternate'
+  }}
+>
+  R95
+</h1>
             <p className="text-indigo-200 text-lg">Profile</p>
           </div>
 
