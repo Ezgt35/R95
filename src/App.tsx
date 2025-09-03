@@ -49,7 +49,7 @@ function App() {
       <div className="min-h-screen bg-gradient-to-b from-transparent via-black/50 to-black text-white py-16 px-4 relative">
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-12 fade-in">
-            <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 ring-2 ring-indigo-500 p-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-500">
+           <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6 ring-2 ring-blue-300 p-1 bg-gradient-to-r from-blue-200 via-blue-300 to-cyan-200">
               <img
                 src="https://img1.pixhost.to/images/8436/637430585_zion.jpg"
                 alt="Profile"
