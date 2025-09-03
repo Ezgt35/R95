@@ -97,19 +97,15 @@ body {
 }
 
 /* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
 ::-webkit-scrollbar-track {
-  background: #222d4a;
+  background: #4a5372; 
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #356bf2;
+  background: #2249a3;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #356bf2;
+  background: #5b8cf7; 
 }
