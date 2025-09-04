@@ -1,7 +1,6 @@
 import React from 'react';
 import { Github, Twitter, Instagram, Linkedin, ExternalLink, Rocket, Star } from 'lucide-react';
 import './App.css';
-import ScBot from './sc-bot';
 
 function App() {
   const links = [
