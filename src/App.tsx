@@ -2,9 +2,6 @@ import React from 'react';
 import { Github, Twitter, Instagram, Linkedin, ExternalLink, Rocket, Star } from 'lucide-react';
 import './App.css';
 
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import ScBot from './sc-bot';
-
 function App() {
   const links = [
     {
@@ -159,11 +156,6 @@ function App() {
             </div>
           }
         />
-
-        {/* Halaman Script Bot */}
-        <Route path="/sc-bot" element={<ScBot />} />
-      </Routes>
-    </Router>
   );
 }
 
