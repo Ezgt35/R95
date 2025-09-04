@@ -17,11 +17,15 @@ function App() {
       icon: <Star className="w-5 h-5 text-purple-400" />
     },
     {
-      title: 'YouTube Channel',
-      url: 'https://youtube.com/@ezgt1',
-      description: 'Watch tech tutorials from space',
-      icon: <ExternalLink className="w-5 h-5 text-blue-400" />
-    },
+  title: 'YouTube Channel',
+  url: 'https://youtube.com/@ezgt1',
+  description: 'Watch tech tutorials from space',
+  icon: (
+    <svg className="w-5 h-5 text-red-600" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.498 6.186a2.995 2.995 0 0 0-2.112-2.115C19.268 3.5 12 3.5 12 3.5s-7.268 0-9.386.571A2.995 2.995 0 0 0 .502 6.186C0 8.306 0 12 0 12s0 3.694.502 5.814a2.995 2.995 0 0 0 2.112 2.115C4.732 20.5 12 20.5 12 20.5s7.268 0 9.386-.571a2.995 2.995 0 0 0 2.112-2.115C24 15.694 24 12 24 12s0-3.694-.502-5.814ZM9.755 15.568V8.432L15.818 12l-6.063 3.568Z"/>
+    </svg>
+  )
+},
     {
       title: 'Discord Community',
       url: 'https://discord.gg/ezgt',
