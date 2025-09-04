@@ -1,12 +1,13 @@
 import React from 'react';
 import { Github, Twitter, Instagram, Linkedin, ExternalLink, Rocket, Star } from 'lucide-react';
 import './App.css';
+import ScBot from './sc-bot';
 
 function App() {
   const links = [
     {
   title: 'Script Bot',
-  url: '/sc-bot.tsx',
+  url: '/sc-bot',
   description: 'Explore my digital universe',
   icon: <Rocket className="w-5 h-5 text-indigo-400" />
     },
