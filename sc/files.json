@@ -1,0 +1,14 @@
+[
+  {
+    "name": "file1.zip",
+    "description": "File contoh 1",
+    "size": "120 KB",
+    "path": "uploads/file1.zip"
+  },
+  {
+    "name": "file2.zip",
+    "description": "File contoh 2",
+    "size": "340 KB",
+    "path": "uploads/file2.zip"
+  }
+]
