@@ -6,7 +6,7 @@ function App() {
   const links = [
     {
       title: 'Script Bot',
-      href: '/sc/sc.html', // internal file di public/sc/sc.html
+      path: '/sc-bot', // route React, bukan file HTML langsung
       description: 'Explore my digital universe',
       icon: <Rocket className="w-5 h-5 text-indigo-400" />
     },
