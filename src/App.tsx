@@ -169,18 +169,12 @@ function MainWrapper() {
   return (
     <>
       {location.pathname !== '/sc-bot' && <HomePage />}
-      <Routes>
-        <Route path="/sc-bot" element={<ScBot bgUrl="https://picsum.photos/1920/1080"} />} />
-      </Routes>
-    </>
-  );
-}
-
-export default function App() {
-  return (
-    <Router>
-      <MainWrapper />
-    </Router>
+      <Router>
+  <Routes>
+    <Route path="/" element={<HomePage />} />
+    <Route path="/sc-bot" element={<ScBot />} />
+  </Routes>
+</Router>
   );
 }
 
