@@ -42,7 +42,7 @@ export default function ScBot() {
     setOpenIdx(i);
     if (!sizes[file.name]) {
       try {
-        const res = await fetch(`src/sc-bot/sc/${file.name}`, { method: "HEAD" });
+        const res = await fetch(`/sc/${file.name}`, { method: "HEAD" });
         const size = res.headers.get('Content-Length');
         if (size) {
           setSizes(prev => ({ ...prev, [file.name]: formatSize(Number(size)) }));
