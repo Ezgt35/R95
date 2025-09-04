@@ -2,13 +2,16 @@ import React from 'react';
 import { Github, Twitter, Instagram, Linkedin, ExternalLink, Rocket, Star } from 'lucide-react';
 import './App.css';
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import ScBot from './sc-bot/sc-bot';
+
 function App() {
   const links = [
     {
-      title: 'Portfolio',
-      url: 'https://portfolio.com',
-      description: 'Explore my digital universe',
-      icon: <Rocket className="w-5 h-5 text-indigo-400" />
+  title: 'Script Bot',
+  url: '/sc-bot',
+  description: 'Explore my digital universe',
+  icon: <Rocket className="w-5 h-5 text-indigo-400" />
     },
     {
       title: 'Blog',
@@ -66,6 +69,12 @@ function App() {
   ];
 
   return (
+    <Router>
+    <Routes>
+      <Route path="/" element={/* ...halaman utama anda... */} />
+      <Route path="/sc-bot" element={<ScBot />} />
+    </Routes>
+  </Router>
     <>
       <div className="stars"></div>
       <div className="min-h-screen bg-gradient-to-b from-transparent via-black/50 to-black text-white py-16 px-4 relative">
