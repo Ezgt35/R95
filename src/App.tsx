@@ -6,7 +6,7 @@ function App() {
   const links = [
     {
   title: 'Script Bot',
-  url: '/sc-bot/sc-bot.tsx',
+  url: '/sc/index.php',
   description: 'Explore my digital universe',
   icon: <Rocket className="w-5 h-5 text-indigo-400" />
     },
