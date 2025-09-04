@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Github, Twitter, Instagram, Linkedin, ExternalLink, Rocket, Star } from 'lucide-react';
 import './App.css';
-import ScBot from './sc-bot';
+import ScBot from './sc-bot/sc-bot';
 
 function HomePage() {
   const links = [
