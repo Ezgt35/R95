@@ -4,7 +4,7 @@ import './App.css';
 
 // ✅ Tambahan: import router dan file ScBot
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import ScBot from './sc-bot/sc-bot';
+import ScBot from './sc-bot';
 
 function App() {
   const links = [
