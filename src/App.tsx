@@ -6,10 +6,10 @@ function App() {
   const links = [
     {
   title: 'Script Bot',
-  url: '/sc/sc.html',
+  href: '/sc/sc.html',  // ganti dari url ke href
   description: 'Explore my digital universe',
   icon: <Rocket className="w-5 h-5 text-indigo-400" />
-    },
+},
     {
       title: 'Blog',
       url: 'https://blog.com',
