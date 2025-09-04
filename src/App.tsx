@@ -1,6 +1,6 @@
 // App.tsx
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { Github, Twitter, Instagram, Linkedin, ExternalLink, Rocket, Star } from 'lucide-react';
 import './App.css';
 import ScBot from './sc-bot/sc-bot';
@@ -9,7 +9,7 @@ function HomePage() {
   const links = [
     {
       title: 'Script Bot',
-      url: '/sc-bot', // internal route ke ScBot
+      url: '/sc-bot',
       description: 'Explore my digital universe',
       icon: <Rocket className="w-5 h-5 text-indigo-400" />
     },
@@ -162,16 +162,24 @@ function HomePage() {
   );
 }
 
-function App() {
+// Wrapper untuk menampilkan HomePage hanya di path selain /sc-bot
+function MainWrapper() {
+  const location = useLocation();
+
+  return (
+    <>
+      {location.pathname !== '/sc-bot' && <HomePage />}
+      <Routes>
+        <Route path="/sc-bot" element={<ScBot bgUrl="https://picsum.photos/1920/1080"} />} />
+      </Routes>
+    </>
+  );
+}
+
+export default function App() {
   return (
     <Router>
-      <Routes>
-        {/* Halaman utama */}
-        <Route path="/" element={<HomePage />} />
-
-        {/* Halaman sc-bot */}
-        <Route path="/sc-bot" element={<ScBot />} />
-      </Routes>
+      <MainWrapper />
     </Router>
   );
 }
