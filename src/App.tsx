@@ -65,7 +65,7 @@ function App() {
     animation: 'anime-glow-blue 1.5s infinite alternate'
   }}
 >
-  R95
+  EZGT
 </h1>
             <p className="text-indigo-200 text-lg">Profile</p>
           </div>
@@ -112,7 +112,7 @@ function App() {
           </div>
 
           <footer className="mt-16 text-center text-sm text-indigo-200/50 fade-in" style={{ animationDelay: '0.8s' }}>
-            <p>© {new Date().getFullYear()} R95 • Profile</p>
+            <p>© {new Date().getFullYear()} EZGT • Profile</p>
           </footer>
         </div>
       </div>
